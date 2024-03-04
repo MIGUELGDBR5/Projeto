@@ -27,13 +27,8 @@
 body {
     /* background: color image repeat position/size */
 
-    background:
-    var(--bg-url)
-    no-repeat
-    top
-    center
-    /cover;
-
+    background: var(--bg-url) no-repeat top 
+    center/cover;
     height: 100vh;
 }
 
@@ -57,6 +52,7 @@ body * {
 
 #profile img {
     width: 112px;
+    border-radius: 50%;
 }
 
 #profile p {
